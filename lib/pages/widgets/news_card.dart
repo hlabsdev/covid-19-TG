@@ -57,7 +57,7 @@ class NewsCard extends StatelessWidget {
                           color: Color(0xffD6D6D6).withOpacity(0.15),
                           borderRadius: BorderRadius.circular(5)),
                       child: Text(
-                        "Nigerian News",
+                        "Information",
                         style: GoogleFonts.cabin(
                           textStyle: TextStyle(
                               color: Colors.grey[400], fontSize: 13),

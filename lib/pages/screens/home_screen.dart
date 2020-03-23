@@ -64,8 +64,8 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                 child: Column(
                   children: <Widget>[
                     GlobalSituationCard(
-                      cardTitle: 'Total CASES',
-                      caseTitle: 'Total',
+                      cardTitle: 'Cas Confirmés',
+                      caseTitle: 'Confirmés',
                       currentData: currentData.totalCases,
                       newData: currentData.totalNewCasesToday,
                       percentChange: calculateGrowthPercentage(
@@ -76,8 +76,8 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                       color: Colors.red,
                     ),
                     GlobalSituationCard(
-                      cardTitle: 'Recovered CASES',
-                      caseTitle: 'Recovered',
+                      cardTitle: 'Cas Actifs',
+                      caseTitle: 'Actifs',
                       currentData: currentData.totalRecovered,
                       newData:
                           currentData.totalRecovered - firstData.totalRecovered,
@@ -93,8 +93,8 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                       color: Colors.green,
                     ),
                     GlobalSituationCard(
-                      cardTitle: 'Death CASES',
-                      caseTitle: 'Deaths',
+                      cardTitle: 'Cas Guéries',
+                      caseTitle: 'Guéries',
                       currentData: currentData.totalDeaths,
                       newData: currentData.totalNewDeathsToday,
                       percentChange: calculateGrowthPercentage(
@@ -107,8 +107,8 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                     ),
                     SizedBox(height: hp(3)),
                     GlobalSituationCard(
-                      cardTitle: 'Serious CASES',
-                      caseTitle: 'Serious',
+                      cardTitle: 'Nombre de Mort',
+                      caseTitle: 'Mort',
                       currentData: currentData.totalSeriousCases,
                       newData: currentData.totalSeriousCases -
                           firstData.totalSeriousCases,
