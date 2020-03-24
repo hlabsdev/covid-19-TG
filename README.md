@@ -1,5 +1,6 @@
 #COVID19 est une application en flutter qui permet de gerer la crise pandemique que subit le monde acctuellement.
-Elle permet 
+Elle permet à l'utilisateur d'être informé des evolutions de la pandemie, des mesures à prendre, d'avoir des informations fiable en langue local
+
 
 ## 💻 Requirements
 * Any Operating System (i.e MacOS X, Linux, Windows)
@@ -7,16 +8,12 @@ Elle permet
 * A little knowledge of Dart and Flutter
 * A brain to think 🤓🤓
 
-## ✨ Features
-- [x] See all cases statistics.
-- [x] Read guides.
+## ✨ Mise à jour
+- [x] Le rendre dynamique avec un backoffice
+- [x]
 
 ## 📸 Screenshots
-<div style="background-color:rgb(169,169,169); text-align:center">
-<img src="screenshots/ss1.png" width="300" style="border-radius: 15px">
-&nbsp;
-<img src="screenshots/ss2.png" width="300" style="border-radius: 15px">
-</div>
+
 
 
 <div style="background-color:rgb(169,169,169); text-align:center">
@@ -34,12 +31,13 @@ Elle permet
 
 
 ## 🤓 Author(s)
-**Ajiboye Temitope Oluwatayomi** [![Twitter Follow](https://img.shields.io/twitter/follow/olu_tayormi?label=Follow&style=social)](https://twitter.com/olu_tayormi)
+Selon une idée de **Ajiboye Temitope Oluwatayomi**
+Modifié et adapter par certains jeunes
 
 
 
 ## 🔖 License
-[Apache-2.0](https://github.com/tayormi/covid_tracker/blob/master/LICENSE)
+[Apache-2.0]
 
 ***
 > Feel free to star ⭐ this repository if you like what you see 😉.
