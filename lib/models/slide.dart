@@ -16,7 +16,7 @@ class Slide {
 final slideList = [
   Slide(
       imageUrl: 'assets/images/image1.jpg',
-      title: 'Prenez les bonnes habitudes',
+      title: 'Le COVID19 existe, Prenez les bonnes habitudes',
       description:
           "Que les bonnes habitudes, pratique et gestes ne vous quittent jamais!!"),
   Slide(

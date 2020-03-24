@@ -1,14 +1,5 @@
-# 📈COVID-19 Tracker 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Twitter Follow](https://img.shields.io/twitter/follow/olu_tayormi?label=Follow&style=social)](https://twitter.com/olu_tayormi)
-
-A simple Flutter app to track COVID-19 cases.
-The data we provide is collected from [World Health Organization (WHO)](https://www.who.int/), the US [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov), the [Chinese Centre for Disease Control and Prevention (ECDC)](http://www.chinacdc.cn/en/), [China’s National Health Commission](http://en.nhc.gov.cn/), and Chinese website DXY which provides regional case estimates faster than the national level reporting organizations.
-
-The [The Virus Tracker API](https://thevirustracker.com/api) was used to provide the data.
-The [www.cdc.gov](https://www.cdc.gov) was used to provide the guides.
-
-<!-- <a href="http://download1523.mediafire.com/47ofh2ic5wdg/tk77cflsp5alb6j/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a> -->
-
+#COVID19 est une application en flutter qui permet de gerer la crise pandemique que subit le monde acctuellement.
+Elle permet 
 
 ## 💻 Requirements
 * Any Operating System (i.e MacOS X, Linux, Windows)
