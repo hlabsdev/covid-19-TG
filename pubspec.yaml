@@ -64,8 +64,8 @@ flutter:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
   assets:
-    - assets/images/image1.jpg
-    - assets/images/image2.jpg
+    - assets/images/image1.png
+    - assets/images/lavage.png
     - assets/images/image3.jpg
     - assets/images/logo.png
     - assets/images/corona1.png

@@ -15,19 +15,19 @@ class Slide {
 
 final slideList = [
   Slide(
-      imageUrl: 'assets/images/image1.jpg',
-      title: 'Le COVID19 existe, Prenez les bonnes habitudes',
+      imageUrl: 'assets/images/image1.png',
+      title: 'Prenez les bonnes habitudes',
       description:
-          "Que les bonnes habitudes, pratique et gestes ne vous quittent jamais!!"),
+          "Que les bonnes habitudes, pratiques et gestes ne vous quittent jamais!!"),
   Slide(
-      imageUrl: 'assets/images/corona1.png',
-      title: 'Luttons contre le coronavirus',
-      description: "C'est  ensemble que nous arreterons la menace!!"),
+      imageUrl: 'assets/images/lavage.png',
+      title: 'Lavez-vous les mains regulièrement',
+      description: "Lavez-vous très régulièrement les mains avec de l’eau et du savon, ou désinfectez-les avec du gel hydroalcoolique plusieurs fois par jour"),
   Slide(
     imageUrl: 'assets/images/image2.jpg',
-    title: 'Soyez toujours au aguets',
+    title: 'Toussez ou éternuez dans votre coude',
     description:
-        "Ne negligez rien, toujours a l'affut des signes precurseur. Ca peut sauver des vie!!",
+        "Toussez ou éternuez dans un mouchoir ou dans le pli de votre coude, vous evite d'exposer votre entourage au virus!!",
   ),
   Slide(
     imageUrl: 'assets/images/image3.jpg',
