@@ -24,14 +24,20 @@ final slideList = [
       title: 'Lavez-vous les mains regulièrement',
       description: "Lavez-vous très régulièrement les mains avec de l’eau et du savon, ou désinfectez-les avec du gel hydroalcoolique plusieurs fois par jour"),
   Slide(
-    imageUrl: 'assets/images/image2.jpg',
+    imageUrl: 'assets/images/toussez.jpg',
     title: 'Toussez ou éternuez dans votre coude',
     description:
         "Toussez ou éternuez dans un mouchoir ou dans le pli de votre coude, vous evite d'exposer votre entourage au virus!!",
   ),
   Slide(
-    imageUrl: 'assets/images/image3.jpg',
-    title: 'La santé avant tout',
+    imageUrl: 'assets/images/serrez.jpg',
+    title: 'Ne vous serrez pas la main',
+    description: "Saluez sans se serrer les mains, évitez les embrassades.",
+  ),
+  Slide(
+    imageUrl: 'assets/images/distance.jpg',
+    title: 'Garder une distance de 1M entre vous',
     description: "La santé est le plus important!!.",
   ),
+
 ];
