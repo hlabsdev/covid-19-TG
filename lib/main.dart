@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'blocs/blocs.dart';
 import 'home.dart';
+import 'pages/screens/splash.dart';
 import 'simple_bloc_delegate.dart';
 import 'utils/storageutil.dart';
 
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
           ),
           home: BlocProvider(
             create: (context) => CaseBloc(apiRepository: apiRepository),
-            child: Home(),
+            child: Splash(),
           ),
         );
       },

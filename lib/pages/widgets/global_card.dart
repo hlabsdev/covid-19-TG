@@ -127,7 +127,7 @@ class GlobalSituationCard extends StatelessWidget {
                               ),
                               const YMargin(5),
                               Text(
-                                "New",
+                                "Nouveau",
                                 style: GoogleFonts.cabin(
                                   textStyle: TextStyle(
                                       color: Colors.white54,

@@ -120,7 +120,7 @@ class _HomeState extends State<Home> {
                     backgroundColor: CardColors.blue,
                   ),
                   GButton(
-                    icon: LineIcons.cog,
+                    icon: LineIcons.heart,
                     text: 'Test',
                     backgroundColor: CardColors.green,
                   ),

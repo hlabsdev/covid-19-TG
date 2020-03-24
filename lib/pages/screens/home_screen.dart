@@ -93,8 +93,8 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                       color: Colors.green,
                     ),
                     GlobalSituationCard(
-                      cardTitle: 'Nombre de Mort',
-                      caseTitle: 'Mort',
+                      cardTitle: 'Cas Guéries',
+                      caseTitle: 'Guéries',
                       currentData: currentData.totalDeaths,
                       newData: currentData.totalNewDeathsToday,
                       percentChange: calculateGrowthPercentage(
@@ -107,8 +107,8 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                     ),
                     SizedBox(height: hp(3)),
                     GlobalSituationCard(
-                      cardTitle: 'Cas Guéries',
-                      caseTitle: 'Guéries',
+                      cardTitle: 'Nombre de Mort',
+                      caseTitle: 'Mort',
                       currentData: currentData.totalSeriousCases,
                       newData: currentData.totalSeriousCases -
                           firstData.totalSeriousCases,
